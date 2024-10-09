@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/reki.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/reki.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/reki.png">
+  <link rel="mask-icon" href="/images/reki.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yukisakk.net","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="自己紹介の続き前回の自己紹介の続き。 プログラミングのプの字も知らなかった僕は、とりあえず HTML + CSS の本を購入して写経して、なんとか静的サイトを作れるレベルにまで達したころ、その知識でいろんな友人のサイト制作に携わっていたのですが、その中の一つの企業さんから、 「社内ブログ開きたいんやけど、お前作れんの？」 との案件をいただく。 0 コンマ何秒かの沈黙のあと、 「余裕っす」 と、僕は">
+<meta property="og:type" content="article">
+<meta property="og:title" content="プログラミング独学、エラー解決の仕方">
+<meta property="og:url" content="https://yukisakk.net/2022/03/14/how-to-program/index.html">
+<meta property="og:site_name" content="雪村朔太郎のブログ">
+<meta property="og:description" content="自己紹介の続き前回の自己紹介の続き。 プログラミングのプの字も知らなかった僕は、とりあえず HTML + CSS の本を購入して写経して、なんとか静的サイトを作れるレベルにまで達したころ、その知識でいろんな友人のサイト制作に携わっていたのですが、その中の一つの企業さんから、 「社内ブログ開きたいんやけど、お前作れんの？」 との案件をいただく。 0 コンマ何秒かの沈黙のあと、 「余裕っす」 と、僕は">
+<meta property="og:locale" content="ja_JP">
+<meta property="article:published_time" content="2022-03-14T00:00:00.000Z">
+<meta property="article:modified_time" content="2024-10-09T19:34:22.965Z">
+<meta property="article:author" content="雪村 朔太郎">
+<meta property="article:tag" content="プログラミング">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://yukisakk.net/images/reki.png">
+<meta name="twitter:site" content="revbooks">
+
+<link rel="canonical" href="https://yukisakk.net/2022/03/14/how-to-program/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'ja'
+  };
+</script>
+
+  <title>プログラミング独学、エラー解決の仕方 | 雪村朔太郎のブログ</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="ナビゲーションバーの切り替え">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">雪村朔太郎のブログ</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>ホーム</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>タグ<span class="badge">47</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>アーカイブ<span class="badge">45</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>検索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="検索…" spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ja">
+    <link itemprop="mainEntityOfPage" href="https://yukisakk.net/2022/03/14/how-to-program/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="雪村 朔太郎">
+      <meta itemprop="description" content="当サイトは、雪村 朔太郎が運営するウェブサイトです。書評、ブログ、ウェブ小説などを雑多に収録しています。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="雪村朔太郎のブログ">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          プログラミング独学、エラー解決の仕方
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">投稿日</span>
+
+              <time title="作成日：2022-03-14 09:00:00" itemprop="dateCreated datePublished" datetime="2022-03-14T09:00:00+09:00">2022-03-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">編集日</span>
+                <time title="修正日：2024-10-10 04:34:22" itemprop="dateModified" datetime="2024-10-10T04:34:22+09:00">2024-10-10</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="自己紹介の続き"><a href="#自己紹介の続き" class="headerlink" title="自己紹介の続き"></a>自己紹介の続き</h2><p>前回の自己紹介の続き。</p>
+<p>プログラミングのプの字も知らなかった僕は、とりあえず HTML + CSS の本を購入して写経して、なんとか静的サイトを作れるレベルにまで達したころ、その知識でいろんな友人のサイト制作に携わっていたのですが、その中の一つの企業さんから、</p>
+<p>「社内ブログ開きたいんやけど、お前作れんの？」</p>
+<p>との案件をいただく。</p>
+<p>0 コンマ何秒かの沈黙のあと、</p>
+<p>「余裕っす」</p>
+<p>と、僕は返事。このとき、内心はめっちゃ焦っていたのを今でも覚えている。</p>
+<p>というのも、その当時のスキルセットを再現するなら、</p>
+<p>・HTML, CSS, jQuery(カルーセル動かせる)</p>
+<p>くらいの、ほんとに駆け出しレベル。SPA 構成も知らんし、なんなら、全ページを.html で作ればよくね？　とかいうほどのとんでもレベル。</p>
+<p>だがしかし、はったりをかますことだけには長けていたので(後から担当の人に聞いたけど、このときめっちゃ手が震えてて笑いそうになった、らしい、ﾌｻﾞｹﾝﾅ）、とりあえず、家にそっこーで帰ってブログの作り方を検索し、PHP というやつがどうも使えるらしいと知った僕は、その足で本屋に行って、PHP と WordPress の本を購入。</p>
+<p>んで、キーボードを打ってる夢で起きるとかいう生活を 3 カ月くらい続けたのち、</p>
+<p>「できたやで」</p>
+<p>と、MacBook Air のモニターを見せながら提示。</p>
+<p>「えーやん、じゃあ、ネットショップも作ってよ」</p>
+<p>「ファッ」</p>
+<p>みたいな感じで、いろいろとこなしていったわけなのです。</p>
+<p>（　＾ ω ＾）・・・</p>
+<p><strong>閑話休題</strong></p>
+<p>とにもかくにも、目の前の課題をひたすら消化した結果いまに至るというものなので、体系的な勉強という勉強をしてこなかったのですが、このときに培った知見みたいなもの書かずにはいられなくなったので書くことにするというトートロジー的な勢いで本題へと移る。</p>
+<h2 id="本題"><a href="#本題" class="headerlink" title="本題"></a>本題</h2><p>プログラミングを独学というか、プログラミングをするにあたって、</p>
+<p>厳密な PDCA サイクルとは違うけど、</p>
+<p>Plan(実装したいものを計画)→Do(実装)→Check(実装物の評価)→Action(改善)</p>
+<p>というものをたどっていくと思います。具体的に述べるなら、</p>
+<p>会員制サイトを作る場合、会員の register 機能を追加したい(Plan)→ 実際にプログラムを組む(Do)→validation エラー、スペルミス等の実装上のミスを確認(check)→ 改善(Action)</p>
+<p>という流れ。</p>
+<p>ここで、いっつもぶち当たったのが、check 段階のエラーコードが出てきた場合。</p>
+<p>プログラミング始めたてのころ、『エラーコード　解決』と日本語で検索して、同じようなところでつまずいているであろう人の質問：「○○ を直すにはどうしたらいいですか？」　っていうタイトルを見つけて意気揚々と解答欄にスクロールすると、</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">○○ができないとかセンスがない</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">そもそも○○の意味って何？</span><br></pre></td></tr></table></figure>
+
+<p>。。。。。。</p>
+<p>。。。</p>
+<p>。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">違う、そうじゃない</span><br></pre></td></tr></table></figure>
+
+<p>という思いを抱きつつ、眠れぬ夜を過ごしていたのですが……</p>
+<p>あくる日、</p>
+<p>『エラーコードが英語なんだからわざわざ日本語で検索する必要なくね？』　っていう</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我、天啓を得たり</span><br></pre></td></tr></table></figure>
+
+<p>感じで、google の検索結果を英語優先にして、エラーコードを直接打ったら、あら不思議、answer に解決策がそっくりそのままのっているではありませんか。</p>
+<p>といっても、コード前後の英語がわけわかめ。</p>
+<p>それもそのはず、プログラミング始めたての頃は TOEIC のスコアが 465 点という、英検換算で準 2 級レベル。これだとせっかく調べてもあとあと苦労しそうだなーってことで、プログラミングと並行して英語も勉強、んで、3 カ月後に 620 点 → 半年後 830 点と、読むだけに関しては苦労しない程度にまで進化(ロバートヒルキ本にはクッソお世話になりました)。</p>
+<p>そこからは、新しい言語に触れる際も YouTube で crash course をあさったり、ときどき、English dub のアニメを見たりして英語には毎日ふれるようにしている。ただ、いまだもって長文を書くとなると一苦労。</p>
+<p>まとめると、プログラミングを独習で行うなら、英語サイトで検索すればおｋっていう雑いやつ。</p>
+<p>加えて、エラーが発生したとき萎えずに自分で調べられるかどうかが、独習できるかどうかの分岐点。あきらめずに調べまくれば、おのずと検索精度についても上昇していくもの。</p>
+<blockquote>
+<p>君子時詘則詘、時伸則伸也。</p>
+</blockquote>
+<p>努力と忍耐は大事ってはっきりわかんだね。</p>
+<p>結局のところ、真っ直ぐに一直線にゴールに向かう道を探すってよりかは、回り道した結果としてゴールにたどり着く方が多かったかなと思ったりする。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag"># プログラミング</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/03/13/first-post/" rel="prev" title="初めての投稿">
+      <i class="fa fa-chevron-left"></i> 初めての投稿
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/03/16/congrats-10kPV/" rel="next" title="コツコツ更新を続けて月間1万PV達成">
+      コツコツ更新を続けて月間1万PV達成 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          見出し
+        </li>
+        <li class="sidebar-nav-overview">
+          概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B%E3%81%AE%E7%B6%9A%E3%81%8D"><span class="nav-number">1.</span> <span class="nav-text">自己紹介の続き</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E9%A1%8C"><span class="nav-number">2.</span> <span class="nav-text">本題</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">雪村 朔太郎</p>
+  <div class="site-description" itemprop="description">当サイトは、雪村 朔太郎が運営するウェブサイトです。書評、ブログ、ウェブ小説などを雑多に収録しています。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">45</span>
+          <span class="site-state-item-name">ポスト</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">47</span>
+        <span class="site-state-item-name">タグ</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/yukisakk" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;yukisakk" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">雪村 朔太郎</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

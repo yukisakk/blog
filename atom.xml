@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>雪村朔太郎のブログ</title>
-  <icon>https://yukisakk.net/images/reki.png</icon>
+  <icon>https://www.yukisakk.net/images/reki.png</icon>
   
-  <link href="https://yukisakk.net/atom.xml" rel="self"/>
+  <link href="https://www.yukisakk.net/atom.xml" rel="self"/>
   
-  <link href="https://yukisakk.net/"/>
-  <updated>2024-10-10T11:25:49.854Z</updated>
-  <id>https://yukisakk.net/</id>
+  <link href="https://www.yukisakk.net/"/>
+  <updated>2024-10-10T11:32:24.800Z</updated>
+  <id>https://www.yukisakk.net/</id>
   
   <author>
     <name>雪村 朔太郎</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>プロデューサーデビューしました(学マス)</title>
-    <link href="https://yukisakk.net/2024/10/10/gakumasu/"/>
-    <id>https://yukisakk.net/2024/10/10/gakumasu/</id>
+    <link href="https://www.yukisakk.net/2024/10/10/gakumasu/"/>
+    <id>https://www.yukisakk.net/2024/10/10/gakumasu/</id>
     <published>2024-10-10T09:55:18.000Z</published>
-    <updated>2024-10-10T11:25:49.854Z</updated>
+    <updated>2024-10-10T11:32:24.800Z</updated>
     
     
       
@@ -39,16 +39,16 @@
     
     
     
-    <category term="ブログ" scheme="https://yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    <category term="ブログ" scheme="https://www.yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
-    <category term="学マス" scheme="https://yukisakk.net/tags/%E5%AD%A6%E3%83%9E%E3%82%B9/"/>
+    <category term="学マス" scheme="https://www.yukisakk.net/tags/%E5%AD%A6%E3%83%9E%E3%82%B9/"/>
     
   </entry>
   
   <entry>
     <title>虹ヶ咲の映画を観てきた</title>
-    <link href="https://yukisakk.net/2024/10/06/nijigasaki-love/"/>
-    <id>https://yukisakk.net/2024/10/06/nijigasaki-love/</id>
+    <link href="https://www.yukisakk.net/2024/10/06/nijigasaki-love/"/>
+    <id>https://www.yukisakk.net/2024/10/06/nijigasaki-love/</id>
     <published>2024-10-06T00:00:00.000Z</published>
     <updated>2024-10-09T19:56:58.988Z</updated>
     
@@ -66,16 +66,16 @@
     
     
     
-    <category term="ブログ" scheme="https://yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    <category term="ブログ" scheme="https://www.yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
-    <category term="映画" scheme="https://yukisakk.net/tags/%E6%98%A0%E7%94%BB/"/>
+    <category term="映画" scheme="https://www.yukisakk.net/tags/%E6%98%A0%E7%94%BB/"/>
     
   </entry>
   
   <entry>
     <title>Who cares?</title>
-    <link href="https://yukisakk.net/2024/07/12/2024-07-12/"/>
-    <id>https://yukisakk.net/2024/07/12/2024-07-12/</id>
+    <link href="https://www.yukisakk.net/2024/07/12/2024-07-12/"/>
+    <id>https://www.yukisakk.net/2024/07/12/2024-07-12/</id>
     <published>2024-07-12T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.900Z</updated>
     
@@ -91,14 +91,14 @@
     
     
     
-    <category term="日記" scheme="https://yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
+    <category term="日記" scheme="https://www.yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
     
   </entry>
   
   <entry>
     <title>異星の星——書評更新と近況報告</title>
-    <link href="https://yukisakk.net/2024/07/08/2024-07-08/"/>
-    <id>https://yukisakk.net/2024/07/08/2024-07-08/</id>
+    <link href="https://www.yukisakk.net/2024/07/08/2024-07-08/"/>
+    <id>https://www.yukisakk.net/2024/07/08/2024-07-08/</id>
     <published>2024-07-08T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.898Z</updated>
     
@@ -116,16 +116,16 @@
     
     
     
-    <category term="更新" scheme="https://yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
+    <category term="更新" scheme="https://www.yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
     
-    <category term="書評" scheme="https://yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
+    <category term="書評" scheme="https://www.yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
     
   </entry>
   
   <entry>
     <title>東京創元社「創元 夏のホンまつり2024」にいってきたぞい</title>
-    <link href="https://yukisakk.net/2024/07/05/2024-07-06/"/>
-    <id>https://yukisakk.net/2024/07/05/2024-07-06/</id>
+    <link href="https://www.yukisakk.net/2024/07/05/2024-07-06/"/>
+    <id>https://www.yukisakk.net/2024/07/05/2024-07-06/</id>
     <published>2024-07-05T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.890Z</updated>
     
@@ -141,14 +141,14 @@
     
     
     
-    <category term="ブログ" scheme="https://yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    <category term="ブログ" scheme="https://www.yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
     
   </entry>
   
   <entry>
     <title>星、はるか遠く——書評更新と近況報告</title>
-    <link href="https://yukisakk.net/2024/06/29/2024-06-29/"/>
-    <id>https://yukisakk.net/2024/06/29/2024-06-29/</id>
+    <link href="https://www.yukisakk.net/2024/06/29/2024-06-29/"/>
+    <id>https://www.yukisakk.net/2024/06/29/2024-06-29/</id>
     <published>2024-06-29T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.887Z</updated>
     
@@ -166,16 +166,16 @@
     
     
     
-    <category term="更新" scheme="https://yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
+    <category term="更新" scheme="https://www.yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
     
-    <category term="書評" scheme="https://yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
+    <category term="書評" scheme="https://www.yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
     
   </entry>
   
   <entry>
     <title>幼年期の終り——書評更新と近況報告</title>
-    <link href="https://yukisakk.net/2024/06/20/2024-06-20/"/>
-    <id>https://yukisakk.net/2024/06/20/2024-06-20/</id>
+    <link href="https://www.yukisakk.net/2024/06/20/2024-06-20/"/>
+    <id>https://www.yukisakk.net/2024/06/20/2024-06-20/</id>
     <published>2024-06-20T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.884Z</updated>
     
@@ -193,16 +193,16 @@
     
     
     
-    <category term="更新" scheme="https://yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
+    <category term="更新" scheme="https://www.yukisakk.net/tags/%E6%9B%B4%E6%96%B0/"/>
     
-    <category term="書評" scheme="https://yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
+    <category term="書評" scheme="https://www.yukisakk.net/tags/%E6%9B%B8%E8%A9%95/"/>
     
   </entry>
   
   <entry>
     <title>糖質制限はやばい</title>
-    <link href="https://yukisakk.net/2024/04/04/carbo-restriction/"/>
-    <id>https://yukisakk.net/2024/04/04/carbo-restriction/</id>
+    <link href="https://www.yukisakk.net/2024/04/04/carbo-restriction/"/>
+    <id>https://www.yukisakk.net/2024/04/04/carbo-restriction/</id>
     <published>2024-04-04T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.919Z</updated>
     
@@ -219,14 +219,14 @@
     
     
     
-    <category term="日記" scheme="https://yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
+    <category term="日記" scheme="https://www.yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
     
   </entry>
   
   <entry>
     <title>虚色</title>
-    <link href="https://yukisakk.net/2024/04/03/blank/"/>
-    <id>https://yukisakk.net/2024/04/03/blank/</id>
+    <link href="https://www.yukisakk.net/2024/04/03/blank/"/>
+    <id>https://www.yukisakk.net/2024/04/03/blank/</id>
     <published>2024-04-03T00:00:00.000Z</published>
     <updated>2024-10-09T19:20:45.540Z</updated>
     
@@ -250,14 +250,39 @@
     
     
     
-    <category term="詩" scheme="https://yukisakk.net/tags/%E8%A9%A9/"/>
+    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>野良猫</title>
+    <link href="https://www.yukisakk.net/2024/04/03/cat-cat-cat/"/>
+    <id>https://www.yukisakk.net/2024/04/03/cat-cat-cat/</id>
+    <published>2024-04-03T00:00:00.000Z</published>
+    <updated>2024-10-09T19:34:22.922Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;夏の日差しが照りつけるコンクリートジャングルの細い路地裏に、三匹の子猫がいた。その内の一匹の黒猫は残りの衰弱しきった子猫の前に口に咥えて引きずっていた魚を置く。&lt;/p&gt;
+&lt;p&gt;『ほら、食べなさい』&lt;/p&gt;
+&lt;p&gt;平べったいダンボールの上で横たわっていた白猫と茶トラはゆっくり</summary>
+        
+      
+    
+    
+    
+    
+    <category term="WEB小説" scheme="https://www.yukisakk.net/tags/WEB%E5%B0%8F%E8%AA%AC/"/>
     
   </entry>
   
   <entry>
     <title>半分大人な子</title>
-    <link href="https://yukisakk.net/2024/04/03/half-adult/"/>
-    <id>https://yukisakk.net/2024/04/03/half-adult/</id>
+    <link href="https://www.yukisakk.net/2024/04/03/half-adult/"/>
+    <id>https://www.yukisakk.net/2024/04/03/half-adult/</id>
     <published>2024-04-03T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.950Z</updated>
     
@@ -279,14 +304,14 @@
     
     
     
-    <category term="詩" scheme="https://yukisakk.net/tags/%E8%A9%A9/"/>
+    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
     
   </entry>
   
   <entry>
     <title>Hello World!</title>
-    <link href="https://yukisakk.net/2024/04/03/hello-world/"/>
-    <id>https://yukisakk.net/2024/04/03/hello-world/</id>
+    <link href="https://www.yukisakk.net/2024/04/03/hello-world/"/>
+    <id>https://www.yukisakk.net/2024/04/03/hello-world/</id>
     <published>2024-04-03T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.956Z</updated>
     
@@ -310,39 +335,14 @@
     
     
     
-    <category term="詩" scheme="https://yukisakk.net/tags/%E8%A9%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>野良猫</title>
-    <link href="https://yukisakk.net/2024/04/03/cat-cat-cat/"/>
-    <id>https://yukisakk.net/2024/04/03/cat-cat-cat/</id>
-    <published>2024-04-03T00:00:00.000Z</published>
-    <updated>2024-10-09T19:34:22.922Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;夏の日差しが照りつけるコンクリートジャングルの細い路地裏に、三匹の子猫がいた。その内の一匹の黒猫は残りの衰弱しきった子猫の前に口に咥えて引きずっていた魚を置く。&lt;/p&gt;
-&lt;p&gt;『ほら、食べなさい』&lt;/p&gt;
-&lt;p&gt;平べったいダンボールの上で横たわっていた白猫と茶トラはゆっくり</summary>
-        
-      
-    
-    
-    
-    
-    <category term="WEB小説" scheme="https://yukisakk.net/tags/WEB%E5%B0%8F%E8%AA%AC/"/>
+    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
     
   </entry>
   
   <entry>
     <title>親愛なるヘンテコ世界の住人へ</title>
-    <link href="https://yukisakk.net/2024/04/03/i-love-world/"/>
-    <id>https://yukisakk.net/2024/04/03/i-love-world/</id>
+    <link href="https://www.yukisakk.net/2024/04/03/i-love-world/"/>
+    <id>https://www.yukisakk.net/2024/04/03/i-love-world/</id>
     <published>2024-04-03T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.972Z</updated>
     
@@ -363,14 +363,14 @@
     
     
     
-    <category term="詩" scheme="https://yukisakk.net/tags/%E8%A9%A9/"/>
+    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
     
   </entry>
   
   <entry>
     <title>寝ても覚めても、頭痛</title>
-    <link href="https://yukisakk.net/2024/03/23/terrible-headache/"/>
-    <id>https://yukisakk.net/2024/03/23/terrible-headache/</id>
+    <link href="https://www.yukisakk.net/2024/03/23/terrible-headache/"/>
+    <id>https://www.yukisakk.net/2024/03/23/terrible-headache/</id>
     <published>2024-03-23T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:23.074Z</updated>
     
@@ -390,18 +390,18 @@
     
     
     
-    <category term="メモ" scheme="https://yukisakk.net/tags/%E3%83%A1%E3%83%A2/"/>
+    <category term="メモ" scheme="https://www.yukisakk.net/tags/%E3%83%A1%E3%83%A2/"/>
     
-    <category term="体調" scheme="https://yukisakk.net/tags/%E4%BD%93%E8%AA%BF/"/>
+    <category term="体調" scheme="https://www.yukisakk.net/tags/%E4%BD%93%E8%AA%BF/"/>
     
-    <category term="頭痛" scheme="https://yukisakk.net/tags/%E9%A0%AD%E7%97%9B/"/>
+    <category term="頭痛" scheme="https://www.yukisakk.net/tags/%E9%A0%AD%E7%97%9B/"/>
     
   </entry>
   
   <entry>
     <title>書評とは何か</title>
-    <link href="https://yukisakk.net/2023/11/27/what-is-review/"/>
-    <id>https://yukisakk.net/2023/11/27/what-is-review/</id>
+    <link href="https://www.yukisakk.net/2023/11/27/what-is-review/"/>
+    <id>https://www.yukisakk.net/2023/11/27/what-is-review/</id>
     <published>2023-11-27T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:23.098Z</updated>
     
@@ -419,14 +419,14 @@
     
     
     
-    <category term="日記" scheme="https://yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
+    <category term="日記" scheme="https://www.yukisakk.net/tags/%E6%97%A5%E8%A8%98/"/>
     
   </entry>
   
   <entry>
     <title>言葉の奥に潜むコトバに触れる</title>
-    <link href="https://yukisakk.net/2023/05/24/never-reach/"/>
-    <id>https://yukisakk.net/2023/05/24/never-reach/</id>
+    <link href="https://www.yukisakk.net/2023/05/24/never-reach/"/>
+    <id>https://www.yukisakk.net/2023/05/24/never-reach/</id>
     <published>2023-05-24T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.989Z</updated>
     
@@ -442,16 +442,16 @@
     
     
     
-    <category term="読書" scheme="https://yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
+    <category term="読書" scheme="https://www.yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
     
-    <category term="言葉" scheme="https://yukisakk.net/tags/%E8%A8%80%E8%91%89/"/>
+    <category term="言葉" scheme="https://www.yukisakk.net/tags/%E8%A8%80%E8%91%89/"/>
     
   </entry>
   
   <entry>
     <title>世界を引用で染めろ、オタクであれ</title>
-    <link href="https://yukisakk.net/2023/05/05/quote-reference/"/>
-    <id>https://yukisakk.net/2023/05/05/quote-reference/</id>
+    <link href="https://www.yukisakk.net/2023/05/05/quote-reference/"/>
+    <id>https://www.yukisakk.net/2023/05/05/quote-reference/</id>
     <published>2023-05-05T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:23.045Z</updated>
     
@@ -470,16 +470,16 @@
     
     
     
-    <category term="引用" scheme="https://yukisakk.net/tags/%E5%BC%95%E7%94%A8/"/>
+    <category term="引用" scheme="https://www.yukisakk.net/tags/%E5%BC%95%E7%94%A8/"/>
     
-    <category term="創作" scheme="https://yukisakk.net/tags/%E5%89%B5%E4%BD%9C/"/>
+    <category term="創作" scheme="https://www.yukisakk.net/tags/%E5%89%B5%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>球体関節人形に思いを馳せる</title>
-    <link href="https://yukisakk.net/2023/05/04/boll-jointed-doll/"/>
-    <id>https://yukisakk.net/2023/05/04/boll-jointed-doll/</id>
+    <link href="https://www.yukisakk.net/2023/05/04/boll-jointed-doll/"/>
+    <id>https://www.yukisakk.net/2023/05/04/boll-jointed-doll/</id>
     <published>2023-05-04T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:22.916Z</updated>
     
@@ -496,16 +496,16 @@
     
     
     
-    <category term="人間" scheme="https://yukisakk.net/tags/%E4%BA%BA%E9%96%93/"/>
+    <category term="人間" scheme="https://www.yukisakk.net/tags/%E4%BA%BA%E9%96%93/"/>
     
-    <category term="人形" scheme="https://yukisakk.net/tags/%E4%BA%BA%E5%BD%A2/"/>
+    <category term="人形" scheme="https://www.yukisakk.net/tags/%E4%BA%BA%E5%BD%A2/"/>
     
   </entry>
   
   <entry>
     <title>小説を読むときに僕が考えていること</title>
-    <link href="https://yukisakk.net/2023/04/28/what-is-a-novel/"/>
-    <id>https://yukisakk.net/2023/04/28/what-is-a-novel/</id>
+    <link href="https://www.yukisakk.net/2023/04/28/what-is-a-novel/"/>
+    <id>https://www.yukisakk.net/2023/04/28/what-is-a-novel/</id>
     <published>2023-04-28T00:00:00.000Z</published>
     <updated>2024-10-09T19:34:23.095Z</updated>
     
@@ -521,18 +521,18 @@
     
     
     
-    <category term="読書" scheme="https://yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
+    <category term="読書" scheme="https://www.yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
     
-    <category term="本" scheme="https://yukisakk.net/tags/%E6%9C%AC/"/>
+    <category term="本" scheme="https://www.yukisakk.net/tags/%E6%9C%AC/"/>
     
-    <category term="小説" scheme="https://yukisakk.net/tags/%E5%B0%8F%E8%AA%AC/"/>
+    <category term="小説" scheme="https://www.yukisakk.net/tags/%E5%B0%8F%E8%AA%AC/"/>
     
   </entry>
   
   <entry>
     <title>書評サイトを作りました</title>
-    <link href="https://yukisakk.net/2023/04/09/revbooks-go-for-it/"/>
-    <id>https://yukisakk.net/2023/04/09/revbooks-go-for-it/</id>
+    <link href="https://www.yukisakk.net/2023/04/09/revbooks-go-for-it/"/>
+    <id>https://www.yukisakk.net/2023/04/09/revbooks-go-for-it/</id>
     <published>2023-04-08T15:00:00.000Z</published>
     <updated>2024-10-09T19:34:23.052Z</updated>
     
@@ -549,7 +549,7 @@
     
     
     
-    <category term="報告" scheme="https://yukisakk.net/tags/%E5%A0%B1%E5%91%8A/"/>
+    <category term="報告" scheme="https://www.yukisakk.net/tags/%E5%A0%B1%E5%91%8A/"/>
     
   </entry>
   

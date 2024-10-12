@@ -24,22 +24,28 @@
      crossorigin="anonymous"></script>
 
 
-  <meta name="description" content="暗い、何も、真紅。 結膜。陰り、頭痛。 手触、ぬめり。腐臭。 蒼天。晴れ。しかして、雨。 驚天地。最愛中。目下励。 唱和。 「「:::;」」 不文律。 さして、雨。 照らせ、雲。 すべて？ 変化。終焉。 そして、僕。">
+  <meta name="description" content="タイトルの通り、モダン JavaScript へ入門しました。 理由は、いまの JavaScript がよくわからないからです。 () &#x3D;&gt; &#123;&#125;とかasync&#x2F;awaitとか——  さすがに、このような状況を放置しておくのも——  という結論に至ったので、入門した次第。 とはいえ、バックエンドをメインでｶｷｶｷしている身としては、フロントの知識が皆無。どこから手をつけて">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="https://www.yukisakk.net/2024/04/03/hello-world/index.html">
+<meta property="og:title" content="モダンJavaScriptへ入門しました">
+<meta property="og:url" content="https://www.yukisakk.net/2024/10/12/javascript-newbie/index.html">
 <meta property="og:site_name" content="雪村朔太郎のブログ">
-<meta property="og:description" content="暗い、何も、真紅。 結膜。陰り、頭痛。 手触、ぬめり。腐臭。 蒼天。晴れ。しかして、雨。 驚天地。最愛中。目下励。 唱和。 「「:::;」」 不文律。 さして、雨。 照らせ、雲。 すべて？ 変化。終焉。 そして、僕。">
+<meta property="og:description" content="タイトルの通り、モダン JavaScript へ入門しました。 理由は、いまの JavaScript がよくわからないからです。 () &#x3D;&gt; &#123;&#125;とかasync&#x2F;awaitとか——  さすがに、このような状況を放置しておくのも——  という結論に至ったので、入門した次第。 とはいえ、バックエンドをメインでｶｷｶｷしている身としては、フロントの知識が皆無。どこから手をつけて">
 <meta property="og:locale" content="ja_JP">
-<meta property="article:published_time" content="2024-04-03T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-10-09T19:34:22.956Z">
+<meta property="og:image" content="https://embed.pixiv.net/artwork.php?illust_id=118417130&mdate=1714796759">
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7m6p-5dUaVohOJnjNsLwXQwAuX1pO8FS6Fg&s">
+<meta property="og:image" content="https://pbs.twimg.com/media/BS16l5hCQAAf8RK.jpg:large">
+<meta property="og:image" content="https://i-ogp.pximg.net/c/540x540_70/img-master/img/2014/01/22/18/25/27/41113251_p0_square1200.jpg">
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/1322677816471691264/jrRD7Uvn_400x400.png">
+<meta property="og:image" content="https://jsprimer.net/landing/img/cover-optimized.jpg">
+<meta property="article:published_time" content="2024-10-11T22:38:15.000Z">
+<meta property="article:modified_time" content="2024-10-12T00:31:09.360Z">
 <meta property="article:author" content="雪村 朔太郎">
-<meta property="article:tag" content="詩">
+<meta property="article:tag" content="プログラミング">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://www.yukisakk.net/images/reki.png">
 <meta name="twitter:site" content="revbooks">
 
-<link rel="canonical" href="https://www.yukisakk.net/2024/04/03/hello-world/">
+<link rel="canonical" href="https://www.yukisakk.net/2024/10/12/javascript-newbie/">
 
 
 <script id="page-configurations">
@@ -52,7 +58,7 @@
   };
 </script>
 
-  <title>Hello World! | 雪村朔太郎のブログ</title>
+  <title>モダンJavaScriptへ入門しました | 雪村朔太郎のブログ</title>
   
 
 
@@ -191,7 +197,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ja">
-    <link itemprop="mainEntityOfPage" href="https://www.yukisakk.net/2024/04/03/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://www.yukisakk.net/2024/10/12/javascript-newbie/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -204,7 +210,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World!
+          モダンJavaScriptへ入門しました
         </h1>
 
         <div class="post-meta">
@@ -213,16 +219,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">投稿日</span>
+              
 
-              <time title="作成日：2024-04-03 09:00:00" itemprop="dateCreated datePublished" datetime="2024-04-03T09:00:00+09:00">2024-04-03</time>
+              <time title="作成日：2024-10-12 07:38:15 / 修正日：09:31:09" itemprop="dateCreated datePublished" datetime="2024-10-12T07:38:15+09:00">2024-10-12</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">編集日</span>
-                <time title="修正日：2024-10-10 04:34:22" itemprop="dateModified" datetime="2024-10-10T04:34:22+09:00">2024-10-10</time>
-              </span>
 
           
 
@@ -235,19 +235,34 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>暗い、何も、真紅。</p>
-<p>結膜。陰り、頭痛。</p>
-<p>手触、ぬめり。腐臭。</p>
-<p>蒼天。晴れ。しかして、雨。</p>
-<p>驚天地。最愛中。目下励。</p>
-<p>唱和。</p>
-<p>「「:::;」」</p>
-<p>不文律。</p>
-<p>さして、雨。</p>
-<p>照らせ、雲。</p>
-<p>すべて？</p>
-<p>変化。終焉。</p>
-<p>そして、僕。</p>
+        <p>タイトルの通り、モダン JavaScript へ入門しました。</p>
+<p>理由は、いまの JavaScript がよくわからないからです。</p>
+<p><code>() =&gt; &#123;&#125;</code>とか<code>async/await</code>とか——</p>
+<p><img src="https://embed.pixiv.net/artwork.php?illust_id=118417130&mdate=1714796759" alt="西木野真姫"></p>
+<p>さすがに、このような状況を放置しておくのも——</p>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7m6p-5dUaVohOJnjNsLwXQwAuX1pO8FS6Fg&s" alt="メンズコーチ"></p>
+<p>という結論に至ったので、入門した次第。</p>
+<p>とはいえ、バックエンドをメインでｶｷｶｷしている身としては、フロントの知識が皆無。どこから手をつけていいのか？　どの人を参考にすればいいのか？　という知識すらもなし。</p>
+<p>とりあえず YouTube でおもしろそうな動画をひたすらディグってたら……</p>
+<h2 id="JavaScript-Masteryみーつけた！！"><a href="#JavaScript-Masteryみーつけた！！" class="headerlink" title="JavaScript Masteryみーつけた！！"></a><a target="_blank" rel="noopener" href="https://www.youtube.com/@javascriptmastery">JavaScript Mastery</a>みーつけた！！</h2><p><img src="https://pbs.twimg.com/media/BS16l5hCQAAf8RK.jpg:large" alt="見つかっちゃった"></p>
+<p>このチャンネルが、まじでえぐい。</p>
+<p>例を挙げると、</p>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jx5hdo50a2M?si=JzjKEgVDVYTYKytj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wm5gMKuwSYk?si=_dOVIsdAUUJI5ghc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<p>こういうのが動画(しかも<strong>無料</strong>！！！！！)で観られるようになったの激アツ。</p>
+<h2 id="いいゾ～これ"><a href="#いいゾ～これ" class="headerlink" title="いいゾ～これ"></a>いいゾ～これ</h2><p><img src="https://i-ogp.pximg.net/c/540x540_70/img-master/img/2014/01/22/18/25/27/41113251_p0_square1200.jpg" alt="MUR大先輩"></p>
+<p>わたしはプログラミングの学習をするとき、体系的に進めるよりも、ひたすら写経して指に覚えさせるほうが性に合っているので、なおのことよし。</p>
+<p><img src="https://pbs.twimg.com/profile_images/1322677816471691264/jrRD7Uvn_400x400.png" alt="現場猫"></p>
+<p>んで、あまりにもコードがわからなすぎるときは、以下のサイトを頼ることにした。</p>
+<a href="https://jsprimer.net/" class="link-preview" target="_blank" rel="nofollow"><div class="link-area"><div class="descriptions"><div class="og-title">JavaScript Primer - 迷わないための入門書</div><div class="og-description">JavaScript Primerは、JavaScriptの基礎から応用までを一貫して学べる入門書です。</div></div><div class="og-image"><img src="https://jsprimer.net/landing/img/cover-optimized.jpg"></img></div></div></a>
+
+<p>超優良な教材が<strong>無料</strong>で揃えられる時代に感謝。</p>
 
     </div>
 
@@ -258,19 +273,7 @@
   <div class="popular-posts-header">関連記事</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2024/04/03/blank/" rel="bookmark">虚色</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2022/08/18/celebration-of-humanity/" rel="bookmark">人間讃歌</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2024/04/03/half-adult/" rel="bookmark">半分大人な子</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2024/04/03/i-love-world/" rel="bookmark">親愛なるヘンテコ世界の住人へ</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2022/08/18/the-way-I-am/" rel="bookmark">ありのままの僕でいい</a></div>
+      <div class="popular-posts-title"><a href="/2022/03/14/how-to-program/" rel="bookmark">プログラミング独学、エラー解決の仕方</a></div>
     </li>
   </ul>
 
@@ -306,7 +309,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E8%A9%A9/" rel="tag"># 詩</a>
+              <a href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag"># プログラミング</a>
           </div>
 
         
@@ -315,13 +318,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2024/04/03/half-adult/" rel="prev" title="半分大人な子">
-      <i class="fa fa-chevron-left"></i> 半分大人な子
+    <a href="/2024/10/10/gakumasu/" rel="prev" title="プロデューサーデビューしました(学マス)">
+      <i class="fa fa-chevron-left"></i> プロデューサーデビューしました(学マス)
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2024/04/03/cat-cat-cat/" rel="next" title="野良猫">
-      野良猫 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -380,6 +380,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript-Mastery%E3%81%BF%E3%83%BC%E3%81%A4%E3%81%91%E3%81%9F%EF%BC%81%EF%BC%81"><span class="nav-number">1.</span> <span class="nav-text">JavaScript Masteryみーつけた！！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%81%84%E3%81%84%E3%82%BE%EF%BD%9E%E3%81%93%E3%82%8C"><span class="nav-number">2.</span> <span class="nav-text">いいゾ～これ</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5559ff;
+  background: #63ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1524,6 +1524,7 @@ pre .javascript .function {
 .og-image img {
   object-fit: cover;
   height: 130px;
+  width: 200px;
 }
 .descriptions {
   width: calc(100% - 200px);
@@ -1541,6 +1542,9 @@ pre .javascript .function {
 }
 @media screen and (max-width: 720px) {
   .og-image {
+    width: 120px;
+  }
+  .og-image img {
     width: 120px;
   }
   .og-description {

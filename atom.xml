@@ -6,7 +6,7 @@
   <link href="https://www.yukisakk.net/atom.xml" rel="self"/>
   
   <link href="https://www.yukisakk.net/"/>
-  <updated>2024-10-11T11:31:01.852Z</updated>
+  <updated>2024-10-12T00:31:09.360Z</updated>
   <id>https://www.yukisakk.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>モダンJavaScriptへ入門しました</title>
+    <link href="https://www.yukisakk.net/2024/10/12/javascript-newbie/"/>
+    <id>https://www.yukisakk.net/2024/10/12/javascript-newbie/</id>
+    <published>2024-10-11T22:38:15.000Z</published>
+    <updated>2024-10-12T00:31:09.360Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;タイトルの通り、モダン JavaScript へ入門しました。&lt;/p&gt;
+&lt;p&gt;理由は、いまの JavaScript がよくわからないからです。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;() =&amp;gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="プログラミング" scheme="https://www.yukisakk.net/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>プロデューサーデビューしました(学マス)</title>
@@ -274,35 +299,6 @@
   </entry>
   
   <entry>
-    <title>半分大人な子</title>
-    <link href="https://www.yukisakk.net/2024/04/03/half-adult/"/>
-    <id>https://www.yukisakk.net/2024/04/03/half-adult/</id>
-    <published>2024-04-03T00:00:00.000Z</published>
-    <updated>2024-10-09T19:34:22.950Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;藍色。所々、欠落。&lt;/p&gt;
-&lt;p&gt;視界の先が滲む。&lt;/p&gt;
-&lt;p&gt;全ては、等しく凍りつきて、天地。&lt;/p&gt;
-&lt;p&gt;ひっくり返って、搾り取られる雑巾で、痛い。&lt;/p&gt;
-&lt;p&gt;あっちにふらふら、こっちにふらふら。&lt;/p&gt;
-&lt;p&gt;どこにもいけない、どこへもいけない。&lt;/p&gt;
-&lt;p</summary>
-        
-      
-    
-    
-    
-    
-    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World!</title>
     <link href="https://www.yukisakk.net/2024/04/03/hello-world/"/>
     <id>https://www.yukisakk.net/2024/04/03/hello-world/</id>
@@ -323,6 +319,35 @@
 &lt;p&gt;「「:::;」」&lt;/p&gt;
 &lt;p&gt;不文律。&lt;/p&gt;
 &lt;p&gt;さして、雨</summary>
+        
+      
+    
+    
+    
+    
+    <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>半分大人な子</title>
+    <link href="https://www.yukisakk.net/2024/04/03/half-adult/"/>
+    <id>https://www.yukisakk.net/2024/04/03/half-adult/</id>
+    <published>2024-04-03T00:00:00.000Z</published>
+    <updated>2024-10-09T19:34:22.950Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;藍色。所々、欠落。&lt;/p&gt;
+&lt;p&gt;視界の先が滲む。&lt;/p&gt;
+&lt;p&gt;全ては、等しく凍りつきて、天地。&lt;/p&gt;
+&lt;p&gt;ひっくり返って、搾り取られる雑巾で、痛い。&lt;/p&gt;
+&lt;p&gt;あっちにふらふら、こっちにふらふら。&lt;/p&gt;
+&lt;p&gt;どこにもいけない、どこへもいけない。&lt;/p&gt;
+&lt;p</summary>
         
       
     
@@ -520,30 +545,6 @@
     <category term="本" scheme="https://www.yukisakk.net/tags/%E6%9C%AC/"/>
     
     <category term="小説" scheme="https://www.yukisakk.net/tags/%E5%B0%8F%E8%AA%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>書評サイトを作りました</title>
-    <link href="https://www.yukisakk.net/2023/04/09/revbooks-go-for-it/"/>
-    <id>https://www.yukisakk.net/2023/04/09/revbooks-go-for-it/</id>
-    <published>2023-04-08T15:00:00.000Z</published>
-    <updated>2024-10-09T19:34:23.052Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://revbooks.net/&quot;&gt;Revbooks&lt;/a&gt;という書評サイトを作りました。有益な知見をシェアした書評家が、その見返りを得られるようなサービスにしたいと思います。腰をすえつつ、時間をかけてじっくり育てていきます。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="報告" scheme="https://www.yukisakk.net/tags/%E5%A0%B1%E5%91%8A/"/>
     
   </entry>
   

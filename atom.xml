@@ -6,7 +6,7 @@
   <link href="https://www.yukisakk.net/atom.xml" rel="self"/>
   
   <link href="https://www.yukisakk.net/"/>
-  <updated>2024-10-14T02:22:38.345Z</updated>
+  <updated>2024-10-14T06:18:06.831Z</updated>
   <id>https://www.yukisakk.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SF小説にハマっている理由</title>
+    <link href="https://www.yukisakk.net/2024/10/14/i-like-sf/"/>
+    <id>https://www.yukisakk.net/2024/10/14/i-like-sf/</id>
+    <published>2024-10-14T03:04:03.000Z</published>
+    <updated>2024-10-14T06:18:06.831Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="ブログ" scheme="https://www.yukisakk.net/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+    <category term="読書" scheme="https://www.yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>モダンJavaScriptへ入門しました</title>
@@ -524,33 +549,6 @@
     <category term="人間" scheme="https://www.yukisakk.net/tags/%E4%BA%BA%E9%96%93/"/>
     
     <category term="人形" scheme="https://www.yukisakk.net/tags/%E4%BA%BA%E5%BD%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小説を読むときに僕が考えていること</title>
-    <link href="https://www.yukisakk.net/2023/04/28/what-is-a-novel/"/>
-    <id>https://www.yukisakk.net/2023/04/28/what-is-a-novel/</id>
-    <published>2023-04-28T00:00:00.000Z</published>
-    <updated>2024-10-09T19:34:23.095Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;小説とは「欲望の受け皿」である。とどのつまり、荒唐無稽なこじつけをいかに現実的なものとして表現するかどうかがキモとなる。だからこそ、その過程で用いられる歴史的考証とそれに付随する個人的な動機を比較した際に、後者の比重が高くなる。加えてそれは、親密な知人や肉親にさえも語ること</summary>
-        
-      
-    
-    
-    
-    
-    <category term="読書" scheme="https://www.yukisakk.net/tags/%E8%AA%AD%E6%9B%B8/"/>
-    
-    <category term="本" scheme="https://www.yukisakk.net/tags/%E6%9C%AC/"/>
-    
-    <category term="小説" scheme="https://www.yukisakk.net/tags/%E5%B0%8F%E8%AA%AC/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="https://www.yukisakk.net/atom.xml" rel="self"/>
   
   <link href="https://www.yukisakk.net/"/>
-  <updated>2024-10-12T00:56:36.348Z</updated>
+  <updated>2024-10-14T02:22:38.345Z</updated>
   <id>https://www.yukisakk.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.yukisakk.net/2024/10/12/javascript-newbie/"/>
     <id>https://www.yukisakk.net/2024/10/12/javascript-newbie/</id>
     <published>2024-10-11T22:38:15.000Z</published>
-    <updated>2024-10-12T00:56:36.348Z</updated>
+    <updated>2024-10-14T02:22:38.345Z</updated>
     
     
       
@@ -125,7 +125,7 @@
     <link href="https://www.yukisakk.net/2024/07/08/2024-07-08/"/>
     <id>https://www.yukisakk.net/2024/07/08/2024-07-08/</id>
     <published>2024-07-08T00:00:00.000Z</published>
-    <updated>2024-10-13T07:11:28.335Z</updated>
+    <updated>2024-10-14T02:15:48.464Z</updated>
     
     
       
@@ -175,7 +175,7 @@
     <link href="https://www.yukisakk.net/2024/06/29/2024-06-29/"/>
     <id>https://www.yukisakk.net/2024/06/29/2024-06-29/</id>
     <published>2024-06-29T00:00:00.000Z</published>
-    <updated>2024-10-13T07:11:19.832Z</updated>
+    <updated>2024-10-14T01:49:03.086Z</updated>
     
     
       
@@ -249,31 +249,6 @@
   </entry>
   
   <entry>
-    <title>野良猫</title>
-    <link href="https://www.yukisakk.net/2024/04/03/cat-cat-cat/"/>
-    <id>https://www.yukisakk.net/2024/04/03/cat-cat-cat/</id>
-    <published>2024-04-03T00:00:00.000Z</published>
-    <updated>2024-10-09T19:34:22.922Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;夏の日差しが照りつけるコンクリートジャングルの細い路地裏に、三匹の子猫がいた。その内の一匹の黒猫は残りの衰弱しきった子猫の前に口に咥えて引きずっていた魚を置く。&lt;/p&gt;
-&lt;p&gt;『ほら、食べなさい』&lt;/p&gt;
-&lt;p&gt;平べったいダンボールの上で横たわっていた白猫と茶トラはゆっくり</summary>
-        
-      
-    
-    
-    
-    
-    <category term="WEB小説" scheme="https://www.yukisakk.net/tags/WEB%E5%B0%8F%E8%AA%AC/"/>
-    
-  </entry>
-  
-  <entry>
     <title>虚色</title>
     <link href="https://www.yukisakk.net/2024/04/03/blank/"/>
     <id>https://www.yukisakk.net/2024/04/03/blank/</id>
@@ -301,6 +276,31 @@
     
     
     <category term="詩" scheme="https://www.yukisakk.net/tags/%E8%A9%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>野良猫</title>
+    <link href="https://www.yukisakk.net/2024/04/03/cat-cat-cat/"/>
+    <id>https://www.yukisakk.net/2024/04/03/cat-cat-cat/</id>
+    <published>2024-04-03T00:00:00.000Z</published>
+    <updated>2024-10-09T19:34:22.922Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;夏の日差しが照りつけるコンクリートジャングルの細い路地裏に、三匹の子猫がいた。その内の一匹の黒猫は残りの衰弱しきった子猫の前に口に咥えて引きずっていた魚を置く。&lt;/p&gt;
+&lt;p&gt;『ほら、食べなさい』&lt;/p&gt;
+&lt;p&gt;平べったいダンボールの上で横たわっていた白猫と茶トラはゆっくり</summary>
+        
+      
+    
+    
+    
+    
+    <category term="WEB小説" scheme="https://www.yukisakk.net/tags/WEB%E5%B0%8F%E8%AA%AC/"/>
     
   </entry>
   

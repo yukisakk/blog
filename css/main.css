@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #26731b;
+  background: #b93c04;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1537,6 +1537,10 @@ pre .javascript .function {
   line-height: 1.4;
   font-size: 14px;
 }
+.og-url {
+  font-size: 12px;
+  font-style: italic;
+}
 .descriptions:hover {
   background-color: #f6f7f8;
 }
@@ -1556,7 +1560,9 @@ pre .javascript .function {
     padding: 0.2rem;
     overflow: hidden;
     display: flex;
+    flex-flow: column;
     align-items: center;
+    justify-content: center;
   }
   .link-area {
     align-items: center;

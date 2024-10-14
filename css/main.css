@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b93c04;
+  background: #08bea7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1529,6 +1529,11 @@ pre .javascript .function {
 .descriptions {
   width: calc(100% - 200px);
   padding: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
 }
 .og-title {
   font-weight: bold;
@@ -1557,12 +1562,7 @@ pre .javascript .function {
   .descriptions {
     width: calc(100% - 120px);
     height: 130px;
-    padding: 0.2rem;
-    overflow: hidden;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0.4rem;
   }
   .link-area {
     align-items: center;

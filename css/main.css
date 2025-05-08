@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff2871;
+  background: #bd3022;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1560,6 +1560,7 @@ pre .javascript .function {
 }
 .og-title {
   font-weight: bold;
+  overflow-y: auto;
 }
 .og-description {
   line-height: 1.4;

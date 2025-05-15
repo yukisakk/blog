@@ -170,16 +170,16 @@
   .nav-right .title-list nav {
     top: 43px;
     bottom: 160px;
-    height: calc(100vh - 214px);
+    height: calc(100svh - 214px);
   }
   .nav-right .title-list nav a .post-title {
     width: calc(100vw - 32px);
   }
   .nav-right .title-list #outline-list {
-    height: calc(100vh - 214px);
+    height: calc(100svh - 214px);
   }
   .nav-right .friends-area .friends-content {
-    height: calc(100vh - 232px);
+    height: calc(100svh - 232px);
   }
   .nav-right .friends-area .friends-content ul {
     margin-left: 30px;

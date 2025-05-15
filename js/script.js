@@ -568,7 +568,7 @@ $(function () {
         $('#title-list-nav').show()
     })
 
-    $('.nav-left>ul').css('height', 'calc(100vh - '+($('.avatar_target img').outerHeight(true) + $('.author').outerHeight(true)+$('.nav-left .icon').outerHeight(true)+$('.left-bottom').outerHeight(true))+'px)');
+    $('.nav-left>ul').css('height', 'calc(100svh - '+($('.avatar_target img').outerHeight(true) + $('.author').outerHeight(true)+$('.nav-left .icon').outerHeight(true)+$('.left-bottom').outerHeight(true))+'px)');
     if ($('#local-search-result').length>0) {
         // 全文搜索
         $.getScript(blog_path + '/js/search.js', function () {

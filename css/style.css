@@ -1619,6 +1619,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: none;
   overflow: hidden;
+  touch-action: manipulation;
 }
 a {
   color: inherit;

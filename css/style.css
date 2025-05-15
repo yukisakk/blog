@@ -915,7 +915,6 @@
   text-shadow: -1px 1px 0 rgba(125,139,153,0.1);
   overflow-y: auto;
   overflow-x: hidden;
-  position: absolute;
   padding-top: 45px;
   top: 0;
   bottom: 0;

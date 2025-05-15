@@ -426,8 +426,6 @@
 .full-toc .full {
   display: block;
   position: fixed;
-  top: 30px;
-  right: 40px;
   z-index: 31;
   width: 42px;
   height: 42px;
@@ -2065,8 +2063,8 @@ img.pswp__img {
     font-size: 14px;
   }
   .full-toc .full {
-    top: 0;
-    right: 0;
+    bottom: 30px;
+    left: 0;
     opacity: 0.7;
   }
   .full-toc .post-toc-menu {

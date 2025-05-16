@@ -1725,6 +1725,7 @@ video {
 @media screen and (max-width: 720px) {
   .og-image {
     width: 120px;
+    height: 140px;
   }
   .og-image img {
     width: 120px;

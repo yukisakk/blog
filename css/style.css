@@ -1897,7 +1897,7 @@ img.pswp__img {
     margin-left: 0;
   }
   .nav.mobile {
-    margin-left: 0;
+    margin-left: -492px;
   }
   .nav .hide-list .brackets.first {
     display: none;

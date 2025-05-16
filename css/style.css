@@ -426,7 +426,7 @@
 .full-toc .full {
   display: block;
   position: fixed;
-  z-index: 31;
+  z-index: 9999999;
   width: 42px;
   height: 42px;
   padding: 0;

@@ -1373,10 +1373,16 @@
 #post .pjax article a {
   color: #555;
   word-break: break-all;
-  border-bottom: none;
+  border-bottom: 1px solid #ddd;
+  text-decoration: underline;
+  text-decoration-color: #2a2e31;
+  text-underline-offset: 3px;
 }
 #post .pjax article a:hover {
   text-decoration: underline;
+}
+#post .pjax article .link-preview {
+  text-decoration: none;
 }
 #post .pjax article .div_img,
 #post .pjax article figure {

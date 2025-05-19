@@ -1188,6 +1188,10 @@
 /* margin-left: auto; */
   padding: 14px 5px;
 }
+.twitter-button a {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
 #post {
   height: 100%;
   font-weight: 400;

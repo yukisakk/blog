@@ -1384,6 +1384,10 @@
 #post .pjax article .link-preview {
   text-decoration: none;
 }
+#post .pjax article hr {
+  border: 0;
+  border-bottom: 2px solid #ececec;
+}
 #post .pjax article .div_img,
 #post .pjax article figure {
   margin: 0;

@@ -1309,6 +1309,8 @@
   margin: 5px 4px 5px 8px;
   white-space: nowrap;
   display: inline-block;
+  text-decoration: none;
+  border: none;
 }
 #post .pjax article .article-meta .tag a:hover {
   text-decoration: none;

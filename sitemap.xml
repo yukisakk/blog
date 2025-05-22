@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yukisakk.me/about/index.html</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yukisakk.me/2025/05/22/20250522/</loc>
     
     <lastmod>2025-05-22</lastmod>
@@ -719,6 +728,13 @@
   </url>
   
   <url>
+    <loc>https://www.yukisakk.me/tags/%E7%BE%85%E9%87%9D%E7%9B%A4/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yukisakk.me/tags/%E6%96%87%E5%AD%97/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -740,13 +756,6 @@
   </url>
   
   <url>
-    <loc>https://www.yukisakk.me/tags/%E7%BE%85%E9%87%9D%E7%9B%A4/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.yukisakk.me/tags/%E9%85%92/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -755,20 +764,6 @@
   
   <url>
     <loc>https://www.yukisakk.me/tags/%E6%BF%80%E7%97%85%E3%81%BF/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yukisakk.me/tags/%E8%A9%A9/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.yukisakk.me/tags/WEB%E5%B0%8F%E8%AA%AC/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -789,14 +784,21 @@
   </url>
   
   <url>
-    <loc>https://www.yukisakk.me/tags/AI/</loc>
+    <loc>https://www.yukisakk.me/tags/%E8%A9%A9/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.yukisakk.me/tags/%E8%AA%AD%E6%9B%B8/</loc>
+    <loc>https://www.yukisakk.me/tags/WEB%E5%B0%8F%E8%AA%AC/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yukisakk.me/tags/AI/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -811,6 +813,13 @@
   
   <url>
     <loc>https://www.yukisakk.me/tags/revbooks/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yukisakk.me/tags/%E8%AA%AD%E6%9B%B8/</loc>
     <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

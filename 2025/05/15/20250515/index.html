@@ -222,6 +222,20 @@
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2025/05/15/20250515/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2025/05/15/20250515/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -289,19 +303,19 @@
   <div class="popular-posts-header">関連記事</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2025/05/17/20250517/" rel="bookmark">ネットミームの終焉は唐突に</a></div>
+      <div class="popular-posts-title"><a href="/2025/05/16/20250516/" rel="bookmark">システムで防がない以上は転売はなくならない</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2025/05/19/20250519/" rel="bookmark">相手のウソをAIが見抜く</a></div>
+      <div class="popular-posts-title"><a href="/2025/05/17/20250517/" rel="bookmark">ネットミームの終焉は唐突に</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/2025/05/18/20250518/" rel="bookmark">鋼鉄よりも硬い木材が実用化ってマジっすか？</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2025/05/16/20250516/" rel="bookmark">システムで防がない以上は転売はなくならない</a></div>
+      <div class="popular-posts-title"><a href="/2025/05/20/20250520/" rel="bookmark">物流の新たな可能性が広がる</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2025/05/21/20250521/" rel="bookmark">人型ロボットが世界を変える</a></div>
+      <div class="popular-posts-title"><a href="/2025/05/19/20250519/" rel="bookmark">相手のウソをAIが見抜く</a></div>
     </li>
   </ul>
 
@@ -337,6 +351,13 @@
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -494,6 +515,37 @@
   
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://yukisakk.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://www.yukisakk.me/2025/05/15/20250515/";
+    this.page.identifier = "2025/05/15/20250515/";
+    this.page.title = "AIが自らアルゴリズムを発見する時代へ";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://yukisakk.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
 
 </body>
 </html>
